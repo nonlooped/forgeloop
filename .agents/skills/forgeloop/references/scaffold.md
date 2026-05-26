@@ -4,7 +4,7 @@ Use this flow only for creating new ForgeLoop projects.
 
 ## Official Entry Points
 
-- Docs: `https://unloopedmido.github.io/forgeloop/`
+- Docs: `https://nonlooped.github.io/forgeloop/`
 - Package: `create-forgeloop`
 - Supported creation styles:
   - `npm create forgeloop@latest my-bot`

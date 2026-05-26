@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://unloopedmido.github.io',
+  url: 'https://nonlooped.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/forgeloop/',
@@ -23,7 +23,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'unloopedmido',
+  organizationName: 'nonlooped',
   projectName: 'forgeloop',
 
   onBrokenLinks: 'throw',
@@ -68,7 +68,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/unloopedmido/forgeloop/tree/main/website/',
+            'https://github.com/nonlooped/forgeloop/tree/main/website/',
         },
         blog: false,
         sitemap: {
@@ -98,7 +98,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/unloopedmido/forgeloop',
+          href: 'https://github.com/nonlooped/forgeloop',
           label: 'GitHub',
           position: 'right',
         },
@@ -128,7 +128,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/unloopedmido/forgeloop',
+              href: 'https://github.com/nonlooped/forgeloop',
             },
           ],
         },

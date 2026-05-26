@@ -45,7 +45,7 @@ export default function Home(): ReactNode {
         name: 'ForgeLoop',
         url: siteRoot,
         sameAs: [
-          'https://github.com/unloopedmido/forgeloop',
+          'https://github.com/nonlooped/forgeloop',
           'https://www.npmjs.com/package/create-forgeloop',
         ],
       },

@@ -158,13 +158,13 @@ ForgeLoop includes a project skill at `.agents/skills/forgeloop` so AI coding ag
 Install from this repository:
 
 ```bash
-npx skills add unloopedmido/forgeloop --skill forgeloop
+npx skills add nonlooped/forgeloop --skill forgeloop
 ```
 
 Preview skills detected in this repository:
 
 ```bash
-npx skills add unloopedmido/forgeloop --list
+npx skills add nonlooped/forgeloop --list
 ```
 
 ---
@@ -173,7 +173,7 @@ npx skills add unloopedmido/forgeloop --list
 
 Full docs, setup details, and command reference:
 
-- **GitHub Pages:** [https://unloopedmido.github.io/forgeloop/](https://unloopedmido.github.io/forgeloop/) — enable **Settings → Pages → Build and deployment: GitHub Actions** on the repo the first time you publish.
+- **GitHub Pages:** [https://nonlooped.github.io/forgeloop/](https://nonlooped.github.io/forgeloop/) — enable **Settings → Pages → Build and deployment: GitHub Actions** on the repo the first time you publish.
 
 Clone the repo, install with **pnpm** (see `packageManager` in root `package.json`), then from the repository root:
 
@@ -199,7 +199,7 @@ pnpm run docs:serve
 ## Package
 
 * **npm:** [https://www.npmjs.com/package/create-forgeloop](https://www.npmjs.com/package/create-forgeloop)
-* **GitHub:** [https://github.com/unloopedmido/forgeloop](https://github.com/unloopedmido/forgeloop)
+* **GitHub:** [https://github.com/nonlooped/forgeloop](https://github.com/nonlooped/forgeloop)
 
 ---
 

@@ -1,5 +1,5 @@
 export const CLI_NAME = 'forgeloop';
-export const DOCS_SITE_URL = 'https://unloopedmido.github.io/forgeloop/';
+export const DOCS_SITE_URL = 'https://nonlooped.github.io/forgeloop/';
 export const CONFIG_FILE = 'forgeloop.config.mjs';
 
 export const SUPPORTED_LANGUAGES = ['ts', 'js'] as const;
