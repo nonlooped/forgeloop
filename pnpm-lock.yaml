@@ -24,6 +24,11 @@ overrides:
   '@babel/core': '>=7.29.6'
   http-proxy-middleware: '>=2.0.10'
 
+patchedDependencies:
+  gray-matter@4.0.3:
+    hash: 6867093d18e007f9f610b1c4c6871b64734503b546ffcd3bc7a3675dd11f2188
+    path: patches/gray-matter@4.0.3.patch
+
 importers:
 
   .:
@@ -8587,7 +8592,7 @@ snapshots:
       fs-extra: 11.3.4
       github-slugger: 1.5.0
       globby: 11.1.0
-      gray-matter: 4.0.3
+      gray-matter: 4.0.3(patch_hash=6867093d18e007f9f610b1c4c6871b64734503b546ffcd3bc7a3675dd11f2188)
       jiti: 1.21.7
       js-yaml: 5.1.0
       lodash: 4.18.1
@@ -11223,7 +11228,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  gray-matter@4.0.3:
+  gray-matter@4.0.3(patch_hash=6867093d18e007f9f610b1c4c6871b64734503b546ffcd3bc7a3675dd11f2188):
     dependencies:
       js-yaml: 5.1.0
       kind-of: 6.0.3
