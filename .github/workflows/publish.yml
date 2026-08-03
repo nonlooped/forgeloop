@@ -54,7 +54,7 @@ jobs:
 
       - name: Install pnpm
         if: steps.meta.outputs.publish == 'true'
-        uses: pnpm/action-setup@v6
+        uses: pnpm/action-setup@v6.0.9
 
       - name: Set up Node.js
         if: steps.meta.outputs.publish == 'true'
